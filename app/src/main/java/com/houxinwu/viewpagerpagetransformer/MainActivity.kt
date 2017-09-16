@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                         ViewGroup.LayoutParams.MATCH_PARENT)
                 layoutParams.gravity = Gravity.CENTER
                 val image = ImageView(this@MainActivity)
-                image.setImageResource(R.drawable.bg_default_course)
+                image.loadRes(R.drawable.bg_default_course)
                 image.layoutParams = layoutParams
                 parent.addView(image)
                 container?.addView(parent)

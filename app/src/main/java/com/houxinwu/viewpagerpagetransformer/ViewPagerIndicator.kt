@@ -69,7 +69,7 @@ class ViewPagerIndicator : View {
         return itemWidth * itemCount
     }
 
-    public fun setCurrent(position: Int, offset: Float) {
+    fun setCurrent(position: Int, offset: Float) {
         this.currentPosition = position
         this.offset = offset
         invalidate()
